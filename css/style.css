@@ -1,4 +1,61 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  display:block;
+}
+
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 75%;
+  font-family: system-ui, sans-serif;
+  display:block;
+  margin:  8px;
+}
+
+ @media query screen and (min-width: 575px) {
+div { margin: 1%;
+    width: 48%;
+  }
+}
+
+h1 {
+ text-align: center;
+ font-size: 18px
+ font-style:normal, sans-serif;
+ font-weight: bolder;
+}
+
+.container {
+margin:0 auto;
+padding: 100px; /* right and left*/
+padding: 5px; /*top and bottom*/
+width: 200px;
+}
+
+.medium-pic {
+  width: 70%;
+  }
+
+.baku {
+float:inherit;
+font-weight: bold;
+text-align:left;
+}
+
+.london {
+float: inherit;
+font-weight: bold;
+text-align:left;
+}
+
+.madrid {
+float: inherit;
+font-weight: bold;
+text-align:left;
+}
+
+.rome {
+float: inherit;
+text-align: right;
+font-weight: bold;
+text-align:left;
 }
