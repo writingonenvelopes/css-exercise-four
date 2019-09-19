@@ -4,11 +4,12 @@
 }
 
 body {
-  background-color: #dadada;
+  background-color: #dadada
   font-size: 75%;
   font-family: system-ui, sans-serif;
-  display:block;
   margin:  8px;
+  display:inline-block;
+  width: 500px;
 }
 
  @media query screen and (min-width: 575px) {
@@ -18,10 +19,11 @@ div { margin: 1%;
 }
 
 h1 {
- text-align: center;
+ text-align:justify;
  font-size: 18px
  font-style:normal, sans-serif;
- font-weight: bolder;
+ font-weight: bold;
+
 }
 
 .container {
@@ -35,27 +37,8 @@ width: 200px;
   width: 70%;
   }
 
-.baku {
+.preview {
 float:inherit;
-font-weight: bold;
-text-align:left;
-}
-
-.london {
-float: inherit;
-font-weight: bold;
-text-align:left;
-}
-
-.madrid {
-float: inherit;
-font-weight: bold;
-text-align:left;
-}
-
-.rome {
-float: inherit;
-text-align: right;
 font-weight: bold;
 text-align:left;
 }
