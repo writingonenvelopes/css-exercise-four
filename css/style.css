@@ -18,23 +18,37 @@ div { margin: 1%;
   }
 }
 
-h1 {
- text-align:justify;
- font-size: 18px
- font-style:normal, sans-serif;
- font-weight: bold;
-
+h1 .container {
+text-align: left;
+text-indent: 40px;
+font-size: 36px;
+font-style: normal;
+font-family: sans-serif;
+display:inline-block;
 }
 
 .container {
-margin:0 auto;
-padding: 100px; /* right and left*/
-padding: 5px; /*top and bottom*/
-width: 200px;
+background-color: lightgray;
+margin:20px 550px 20px 550px;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 125px;
+width: 400px;
+display:inline-block;
 }
 
 .medium-pic {
-  width: 70%;
+  width: 100%;
+  margin: 10px 100px 10px 100px;
+  display:inline-block;
+  }
+
+  h1 .preview {
+   text-align:left;
+   text-indent: 40px;
+   font-size: 36px
+   font-family:serif;
+   font-weight: lighter;
   }
 
 .preview {
