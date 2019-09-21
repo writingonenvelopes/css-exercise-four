@@ -1,55 +1,69 @@
-*, *:before, *:after {
+* *:before *:after {
   box-sizing: border-box;
   display:block;
 }
 
 body {
   background-color: #dadada
-  font-size: 75%;
-  font-family: system-ui, sans-serif;
-  margin:  8px;
-  display:inline-block;
   width: 500px;
 }
 
  @media query screen and (min-width: 575px) {
-div { margin: 1%;
+div { margin: 500%;
     width: 48%;
   }
 }
 
-h1 .container {
-text-align: left;
-text-indent: 40px;
-font-size: 36px;
-font-style: normal;
-font-family: sans-serif;
-display:inline-block;
-}
-
-.container {
-background-color: lightgray;
-margin:20px 550px 20px 550px;
-padding-top: 5px;
-padding-bottom: 5px;
-padding-right: 125px;
-width: 400px;
-display:inline-block;
+span {
+  width:auto;
+  margin: auto;
 }
 
 .medium-pic {
+  width: 35%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  text-align: left;
+  text-indent: 40px;
+  }
+
+  .container {
+  background-color: lightgray;
   width: 100%;
-  margin: 10px 100px 10px 100px;
+  margin-left: 600px;
+  margin-right: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display:block;
+  }
+
+  h1 .container {
+  text-align: left;
+  text-indent: 40px;
+  font-size: 36px;
+  font-style: normal;
+  font-family: sans-serif;
   display:inline-block;
   }
 
-  h1 .preview {
-   text-align:left;
-   text-indent: 40px;
-   font-size: 36px
-   font-family:serif;
-   font-weight: lighter;
+.left {
+    float:left;
+    width: 50%;
   }
+
+.right {
+  float: right;
+  width: 50%;
+}
+
+h1 .preview {
+ text-align:left;
+ text-indent: 40px;
+ font-size: 36px
+ font-family:serif;
+ font-weight: lighter;
+}
 
 .preview {
 float:inherit;
