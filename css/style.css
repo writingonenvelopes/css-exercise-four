@@ -4,69 +4,44 @@
 }
 
 body {
-  background-color: #dadada
+border: 1px red solid;
+background-color: #dadada
+}
+
+img {
+  border: 5px pink solid;
+  width: 500px;
+  image: url("../images/baku.jpg");
+}
+
+.baku {
+  border: 4px purple solid;
+  text-align: left;
+  text-indent: 40px;
+  font-style:normal;
+  font-family: times serif;
+  font-weight: normal;
+
+}
+
+.container {
+  border: 2px green solid;
+  background-color: lightgray;
+  display:block;
   width: 500px;
 }
 
- @media query screen and (min-width: 575px) {
-div { margin: 500%;
-    width: 48%;
-  }
-}
-
-span {
-  width:auto;
-  margin: auto;
-}
-
-.medium-pic {
-  width: 35%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  display: inline-block;
+.container h1 {
+  border: 3px blue solid;
   text-align: left;
   text-indent: 40px;
-  }
-
-  .container {
-  background-color: lightgray;
-  width: 100%;
-  margin-left: 600px;
-  margin-right: 600px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display:block;
-  }
-
-  h1 .container {
-  text-align: left;
-  text-indent: 40px;
-  font-size: 36px;
-  font-style: normal;
+  font-style:normal;
   font-family: sans-serif;
-  display:inline-block;
-  }
-
-.left {
-    float:left;
-    width: 50%;
-  }
-
-.right {
-  float: right;
-  width: 50%;
+  font-weight: normal;
 }
 
-h1 .preview {
- text-align:left;
- text-indent: 40px;
- font-size: 36px
- font-family:serif;
- font-weight: lighter;
-}
 
-.preview {
-float:inherit;
-font-weight: bold;
-text-align:left;
-}
+
+ @media query screen and (min-width: 575px) {
+
+ }
