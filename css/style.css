@@ -9,16 +9,11 @@ background-color: #dadada
 
 }
 
-img {
-  border: 5px pink solid;
-  width: 490px;
-  margin-left: 400px
-}
-
-h3 .baku {
+.baku h3 {
   border: 3px orange solid;
-  line-height: 200px;
   background-image: url("../images/baku.jpg");
+  line-height: 400px;
+  width: 400px;
   text-align: left;
   text-indent: 40px;
   font-style:normal;
@@ -26,25 +21,41 @@ h3 .baku {
   font-weight: normal;
 }
 
-
-.london {
-  border: 4px purple solid;
-  width:490px;
-  margin-left: 400px;
-
+.london h3 {
+  border: 3px orange solid;
+  background-image: url("../images/london.png");
+  line-height: 400px;
+  width: 400px;
+  text-align: left;
+  text-indent: 40px;
+  font-style:normal;
+  font-family: times serif;
+  font-weight: normal;
 }
 
-.madrid {
-  border: 4px purple solid;
-  width:490px;
-  margin-left: 400px;
-}
+.madrid h3 {
+  border: 3px orange solid;
+  background-image: url("../images/madrid.jpg");
+  line-height: 400px;
+  width: 400px;
+  text-align: left;
+  text-indent: 40px;
+  font-style:normal;
+  font-family: times serif;
+  font-weight: normal;
+  }
 
-.rome {
-  border: 4px purple solid;
-  width:490px;
-  margin-left: 400px;
-}
+.rome h3 {
+  border: 3px orange solid;
+  background-image: url("../images/rome.jpg");
+  line-height: 400px;
+  width: 400px;
+  text-align: left;
+  text-indent: 40px;
+  font-style:normal;
+  font-family: times serif;
+  font-weight: normal;
+  }
 
 .container {
   border: 2px green solid;
