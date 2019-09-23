@@ -6,12 +6,19 @@
 body {
 border: 3px red solid;
 background-color: #dadada
+
 }
 
 img {
   border: 5px pink solid;
   width: 490px;
-  image: url("../images/baku.jpg") url("../images/london.png") url("../images/madrid.jpg") url("../images/rome.jpg");
+  margin-left: 400px
+}
+
+h3 .baku {
+  border: 3px orange solid;
+  line-height: 200px;
+  background-image: url("../images/baku.jpg");
   text-align: left;
   text-indent: 40px;
   font-style:normal;
@@ -19,45 +26,24 @@ img {
   font-weight: normal;
 }
 
-.baku img h3 {
+
+.london {
   border: 4px purple solid;
-  line-height: 5px;
-  text-align: left;
-  text-indent: 40px;
-  font-style:normal;
-  font-family: times serif;
-  font-weight: normal;
-  width:500px;
+  width:490px;
+  margin-left: 400px;
+
 }
 
-.london img h3{
+.madrid {
   border: 4px purple solid;
-  text-align: left;
-  text-indent: 40px;
-  font-style:normal;
-  font-family: times serif;
-  font-weight: normal;
-  width:500px;
+  width:490px;
+  margin-left: 400px;
 }
 
-.madrid img h3{
+.rome {
   border: 4px purple solid;
-  text-align: left;
-  text-indent: 40px;
-  font-style:normal;
-  font-family: times serif;
-  font-weight: normal;
-  width:500px;
-}
-
-.rome img h3 {
-  border: 4px purple solid;
-  text-align: left;
-  text-indent: 40px;
-  font-style:normal;
-  font-family: times serif;
-  font-weight: normal;
-  width:500px;
+  width:490px;
+  margin-left: 400px;
 }
 
 .container {
