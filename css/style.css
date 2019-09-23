@@ -1,71 +1,73 @@
+/* this a test */
+
 * *:before *:after {
   box-sizing: border-box;
-  display:block;
 }
 
 body {
-border: 3px red solid;
 background-color: #dadada
-padding: 10px 20px 10px 200px;
-width: 350px;
 }
 
-h3, .baku, .london, .madrid, .rome {
-  background-position:center;
-  background-size:250%;
-  line-height: 600px;
-  width: 400px;
-  margin-left: 200px;
-  text-align: left;
-  text-indent: 30px;
-  font-style:normal;
-  font-size: 22px;
-  font-family: times serif;
-  font-weight:525;
-  display:block;
-}
-
-.baku h3 {
-  border: 3px orange solid;
+.baku {
   background-image: url("../images/baku.jpg");
 }
 
-.london h3 {
-  border: 3px orange solid;
+.london  {
   background-image: url("../images/london.png");
 }
 
-.madrid h3 {
-  border: 3px orange solid;
+.madrid {
   background-image: url("../images/madrid.jpg");
   }
 
-.rome h3 {
-  border: 3px orange solid;
+.rome {
   background-image: url("../images/rome.jpg");
   }
 
 .container {
-  border: 2px green solid;
   background-color: lightgray;
-  display:block;
-  width: 350px;
-  padding: 10px 400px 10px 200px;
-  margin-top: 10px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.container h1 {
-  border: 3px blue solid;
-  margin-top: 10px;
-  margin-left: 600px;
-  width: 250px;
-  text-align: center;
-  font-style:normal;
+.container > h1
+{ margin: 30px 0;
   font-family: sans-serif;
-  font-weight: normal;
-  display:block;
+  font-size: 1.4em;
+  letter-spacing: .2em;
+  text-align: center;
+  text-transform: uppercase;
 }
 
- @media query screen and (min-width: 575px) {
+.preview {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: left;
+}
 
+.preview h1 { font-size: 2.4em; padding: 10%; text-align: left; }
+
+
+@media (min-width: 600px) {
+   .container { width: 80%; }
+
+.preview {
+  float: right;
+   height: 200px;
+   margin: 1% 1%;
+    width: 48%;
+  }
+ }
+
+@media (min-width: 900px) {
+  .container { width: 70%;
+  }
+
+.preview {
+   float: left;
+  height: 200px;
+  margin: 1% 1%;
+  width: 23%;
+}
  }
