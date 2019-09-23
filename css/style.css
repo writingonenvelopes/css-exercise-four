@@ -6,55 +6,69 @@
 body {
 border: 3px red solid;
 background-color: #dadada
+padding: 10px 200px 10px 200px;
 
 }
 
 .baku h3 {
   border: 3px orange solid;
   background-image: url("../images/baku.jpg");
-  line-height: 400px;
+  background-position: center;
+  background-size:50% 50%;
+  line-height: 600px;
   width: 400px;
+  margin-left: 200px;
   text-align: left;
   text-indent: 40px;
   font-style:normal;
   font-family: times serif;
   font-weight: normal;
+  display:block;
 }
 
 .london h3 {
   border: 3px orange solid;
   background-image: url("../images/london.png");
-  line-height: 400px;
+  background-position: center;
+  background-size:50% 50%;
+  line-height: 600px;
   width: 400px;
   text-align: left;
   text-indent: 40px;
   font-style:normal;
   font-family: times serif;
   font-weight: normal;
+  display:block;
 }
 
 .madrid h3 {
   border: 3px orange solid;
   background-image: url("../images/madrid.jpg");
-  line-height: 400px;
+  background-position: center;
+  background-size:50% 50%;
+  line-height: 600px;
   width: 400px;
   text-align: left;
   text-indent: 40px;
   font-style:normal;
   font-family: times serif;
   font-weight: normal;
+  display:block;
   }
 
 .rome h3 {
   border: 3px orange solid;
   background-image: url("../images/rome.jpg");
-  line-height: 400px;
+  background-position: center;
+  background-size:50% 50%;
+  line-height: 600px;
   width: 400px;
   text-align: left;
   text-indent: 40px;
   font-style:normal;
   font-family: times serif;
   font-weight: normal;
+  display:block;
   }
 
 .container {
@@ -62,16 +76,19 @@ background-color: #dadada
   background-color: lightgray;
   display:block;
   width: 500px;
+
 }
 
 .container h1 {
   border: 3px blue solid;
   margin-top: 10px;
-  text-align: left;
+  margin-left: 400px;
+  text-align: center;
   text-indent: 40px;
   font-style:normal;
   font-family: sans-serif;
   font-weight: normal;
+  display:block;
 }
 
  @media query screen and (min-width: 575px) {
