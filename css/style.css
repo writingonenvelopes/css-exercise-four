@@ -46,7 +46,10 @@ background-color: #dadada
   background-position: left;
 }
 
-.preview h1 { font-size: 2.4em; padding: 10%; text-align: left; }
+.preview h1 { font-size: 2.4em;
+  padding: 10%;
+  text-align: left;
+}
 
 
 @media (min-width: 600px) {
