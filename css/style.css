@@ -4,24 +4,60 @@
 }
 
 body {
-border: 1px red solid;
+border: 3px red solid;
 background-color: #dadada
 }
 
 img {
   border: 5px pink solid;
-  width: 500px;
-  image: url("../images/baku.jpg");
+  width: 490px;
+  image: url("../images/baku.jpg") url("../images/london.png") url("../images/madrid.jpg") url("../images/rome.jpg");
+  text-align: left;
+  text-indent: 40px;
+  font-style:normal;
+  font-family: times serif;
+  font-weight: normal;
 }
 
-.baku {
+.baku img h3 {
+  border: 4px purple solid;
+  line-height: 5px;
+  text-align: left;
+  text-indent: 40px;
+  font-style:normal;
+  font-family: times serif;
+  font-weight: normal;
+  width:500px;
+}
+
+.london img h3{
   border: 4px purple solid;
   text-align: left;
   text-indent: 40px;
   font-style:normal;
   font-family: times serif;
   font-weight: normal;
+  width:500px;
+}
 
+.madrid img h3{
+  border: 4px purple solid;
+  text-align: left;
+  text-indent: 40px;
+  font-style:normal;
+  font-family: times serif;
+  font-weight: normal;
+  width:500px;
+}
+
+.rome img h3 {
+  border: 4px purple solid;
+  text-align: left;
+  text-indent: 40px;
+  font-style:normal;
+  font-family: times serif;
+  font-weight: normal;
+  width:500px;
 }
 
 .container {
@@ -33,14 +69,13 @@ img {
 
 .container h1 {
   border: 3px blue solid;
+  margin-top: 10px;
   text-align: left;
   text-indent: 40px;
   font-style:normal;
   font-family: sans-serif;
   font-weight: normal;
 }
-
-
 
  @media query screen and (min-width: 575px) {
 
